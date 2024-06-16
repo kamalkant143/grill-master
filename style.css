@@ -318,15 +318,14 @@ a {
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 6rem;
- transition: var(--transition-1);
+ transition: 03s ease-in-out;
 
 }
 #hero-section .rotate-logo .logo-box .main-rotate{
   width: 10rem;
   height: 10rem;
   border:1px solid var(--gold-crayola);
-  transform: rotate(360deg);
-
+ /* transform: rotate(45deg); */
 }
 
 #hero-section .rotate-logo .logo-box .box{
@@ -334,6 +333,9 @@ a {
   width: 10rem;
   height: 10rem;
   padding: 1rem 2rem;
+  /* display: flex;
+  flex-direction: column; */
+
 }
 
 #hero-section .rotate-logo .logo-box p {
