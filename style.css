@@ -208,7 +208,8 @@ a {
   transition: var(--transition-1);
 }
 
-#hero-section header .nav-bar li a:hover {
+#hero-section header .nav-bar li a:hover,
+#hero-section header .nav-bar li a.active {
   color: var(--gold-crayola);
 }
 
@@ -225,6 +226,24 @@ a {
 #hero-section header .nav-bar li:hover:before {
   position: absolute;
   bottom: -1rem;
+  content: "";
+  width: 100%;
+  height: 0.02rem;
+  background-color: var(--gold-crayola);
+}
+
+.active::before{
+  position: absolute;
+  bottom: -1rem;
+  content: "";
+  width: 100%;
+  height: 0.02rem;
+  background-color: var(--gold-crayola);
+}
+.active::after{
+  position: absolute;
+  left: 0;
+  bottom: -1.5rem;
   content: "";
   width: 100%;
   height: 0.02rem;
