@@ -206,6 +206,7 @@ a {
 #hero-section header .nav-bar li {
   position: relative;
   transition: var(--transition-1);
+  cursor: pointer;
 }
 
 #hero-section header .nav-bar li a:hover,
