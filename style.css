@@ -225,6 +225,8 @@ a{
 
 }
 
+
+
 #hero-section header .nav-bar li:hover:before{ 
    position: absolute;
    bottom:-1rem ;
@@ -243,4 +245,55 @@ a{
   font-weight: var(--weight-bold);
   letter-spacing: var(--letterSpacing-1);
   transition: var(--transition-1);
+}
+
+#hero-section .container{
+  text-align: center;
+  margin-top: 10rem;
+
+}
+
+#hero-section .container  p{
+  color: var(--gold-crayola);
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-label-1);
+  /* font-size: var(--fontSize-headline-1); */
+  letter-spacing: var(--letterSpacing-2);
+}
+
+
+#hero-section .container img{
+  width: 10rem;
+}
+
+
+#hero-section .heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-inline: 2rem;
+  margin-top: 6rem;
+}
+
+#hero-section .heading .box{
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid var(--gold-crayola);
+  transform: rotate(45deg);
+}
+
+
+#hero-section .heading .title h1{
+  color: var(--white);
+  font-size: var(--fontSize-display-1);
+font-weight: var(--weight-regular);
+}
+
+#hero-section .heading .title h2{
+  color: var(--white);
+  font-size: var(--fontSize-body-1);
+  font-weight: var(--weight-regular);
+  margin-block: 2rem;
+  font-family: var(--fontFamily-dm_sans);
 }
