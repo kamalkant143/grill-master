@@ -116,6 +116,12 @@ html {
   --transition-2: 500ms ease;
   --transition-3: 1000ms ease;
 }
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 
 .icon {
   width: 1rem;
@@ -124,6 +130,23 @@ html {
   transform: rotate(45deg);
 }
 
+.btn{
+  font-family: var(--fontFamily-dm_sans);
+   border: 1px solid var(--gold-crayola);
+   padding: 2rem 5rem;
+   text-transform: capitalize;
+   color: var(--black-alpha-80);
+   background-color: var(--gold-crayola);
+   font-size: var(--fontSize-label-1);
+   letter-spacing: var(--letterSpacing-1);
+   font-weight: var(--weight-regular);
+   transition: var(--transition-1);
+}
+
+.btn:hover{
+  background-color: var(--black);
+  color: var(--white);
+}
 /* ======= hero section ======= */
 #hero-section {
   height: 130vh;
