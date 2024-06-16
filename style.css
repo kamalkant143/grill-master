@@ -270,10 +270,10 @@ a{
 #hero-section .heading{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
-  padding-inline: 2rem;
-  margin-top: 6rem;
+  padding-inline: 3rem;
+  margin-top: 5rem;
 }
 
 #hero-section .heading .box{
@@ -281,6 +281,7 @@ a{
   height: 5rem;
   border: 2px solid var(--gold-crayola);
   transform: rotate(45deg);
+  margin-top: 8rem;
 }
 
 
@@ -296,4 +297,11 @@ font-weight: var(--weight-regular);
   font-weight: var(--weight-regular);
   margin-block: 2rem;
   font-family: var(--fontFamily-dm_sans);
+}
+
+
+
+#hero-section .button{
+  text-align: center;
+  margin-top: 5rem;
 }
