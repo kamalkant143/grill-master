@@ -282,8 +282,17 @@ a{
   border: 2px solid var(--gold-crayola);
   transform: rotate(45deg);
   margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#hero-section .heading .box i{
+  font-size: var(--fontSize-body-1);
+  color: var(--gold-crayola);
+  transform: rotate(-45deg);
+
+}
 
 #hero-section .heading .title h1{
   color: var(--white);
