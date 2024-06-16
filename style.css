@@ -1,137 +1,146 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
 :root {
-
-    /**
+  /**
      * COLORS
      */
-  
-    --gold-crayola: #e4c590;
-    --quick-silver: #a6a6a6;
-    --davys-grey: #595754;
-    --smoky-black-1: #0e0d0b;
-    --smoky-black-2: #0e0d0c;
-    --smoky-black-3: #121111;
-    --eerie-black-1: #161718;
-    --eerie-black-2: #1b1c1d;
-    --eerie-black-3: #141515;
-    --eerie-black-4: #212121;
-    --white: #ffffff;
-    --white-alpha-20: #ffffff33;
-    --white-alpha-10: #ffffff1a;
-    --black: #000000;
-    --black-alpha-80: #000000cc;
-    --black-alpha-15: #00000026;
-  
-    /**
+
+  --gold-crayola: #e4c590;
+  --quick-silver: #a6a6a6;
+  --davys-grey: #595754;
+  --smoky-black-1: #0e0d0b;
+  --smoky-black-2: #0e0d0c;
+  --smoky-black-3: #121111;
+  --eerie-black-1: #161718;
+  --eerie-black-2: #1b1c1d;
+  --eerie-black-3: #141515;
+  --eerie-black-4: #212121;
+  --white: #ffffff;
+  --white-alpha-20: #ffffff33;
+  --white-alpha-10: #ffffff1a;
+  --black: #000000;
+  --black-alpha-80: #000000cc;
+  --black-alpha-15: #00000026;
+
+  /**
      * GRADIENT COLOR
      */
-  
-    --loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
-    --gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
-  
-    /**
+
+  --loading-text-gradient: linear-gradient(
+    90deg,
+    transparent 0% 16.66%,
+    var(--smoky-black-3) 33.33% 50%,
+    transparent 66.66% 75%
+  );
+  --gradient-1: linear-gradient(
+    to top,
+    hsla(0, 0%, 0%, 0.9),
+    hsla(0, 0%, 0%, 0.7),
+    transparent
+  );
+
+  /**
      * TYPOGRAPHY
      */
-  
-    /* font-family */
-    --fontFamily-forum: 'Forum', cursive;
-    --fontFamily-dm_sans: 'DM Sans', sans-serif;
-  
-    /* font-size */
-    --fontSize-display-1: calc(1.3rem + 6.7vw);
-    --fontSize-headline-1: calc(2rem + 2.5vw);
-    --fontSize-headline-2: calc(1.3rem + 2.4vw);
-    --fontSize-title-1: calc(1.6rem + 1.2vw);
-    --fontSize-title-2: 2.2rem;
-    --fontSize-title-3: 2.1rem;
-    --fontSize-title-4: calc(1.6rem + 1.2vw);
-    --fontSize-body-1: 2.4rem;
-    --fontSize-body-2: 1.6rem;
-    --fontSize-body-3: 1.8rem;
-    --fontSize-body-4: 1.6rem;
-    --fontSize-label-1: 1.4rem;
-    --fontSize-label-2: 1.2rem;
-  
-    /* font-weight */
-    --weight-regular: 400;
-    --weight-bold: 700;
-  
-    /* line-height */
-    --lineHeight-1: 1em;
-    --lineHeight-2: 1.2em;
-    --lineHeight-3: 1.5em;
-    --lineHeight-4: 1.6em;
-    --lineHeight-5: 1.85em;
-    --lineHeight-6: 1.4em;
-  
-    /* letter-spacing */
-    --letterSpacing-1: 0.15em;
-    --letterSpacing-2: 0.4em;
-    --letterSpacing-3: 0.2em;
-    --letterSpacing-4: 0.3em;
-    --letterSpacing-5: 3px;
-  
-    /**
+
+  /* font-family */
+  --fontFamily-forum: "Forum", cursive;
+  --fontFamily-dm_sans: "DM Sans", sans-serif;
+
+  /* font-size */
+  --fontSize-display-1: calc(1.3rem + 6.7vw);
+  --fontSize-headline-1: calc(2rem + 2.5vw);
+  --fontSize-headline-2: calc(1.3rem + 2.4vw);
+  --fontSize-title-1: calc(1.6rem + 1.2vw);
+  --fontSize-title-2: 2.2rem;
+  --fontSize-title-3: 2.1rem;
+  --fontSize-title-4: calc(1.6rem + 1.2vw);
+  --fontSize-body-1: 2.4rem;
+  --fontSize-body-2: 1.6rem;
+  --fontSize-body-3: 1.8rem;
+  --fontSize-body-4: 1.6rem;
+  --fontSize-label-1: 1.4rem;
+  --fontSize-label-2: 1.2rem;
+
+  /* font-weight */
+  --weight-regular: 400;
+  --weight-bold: 700;
+
+  /* line-height */
+  --lineHeight-1: 1em;
+  --lineHeight-2: 1.2em;
+  --lineHeight-3: 1.5em;
+  --lineHeight-4: 1.6em;
+  --lineHeight-5: 1.85em;
+  --lineHeight-6: 1.4em;
+
+  /* letter-spacing */
+  --letterSpacing-1: 0.15em;
+  --letterSpacing-2: 0.4em;
+  --letterSpacing-3: 0.2em;
+  --letterSpacing-4: 0.3em;
+  --letterSpacing-5: 3px;
+
+  /**
      * SPACING
      */
-  
-    --section-space: 70px;
-  
-    /**
+
+  --section-space: 70px;
+
+  /**
      * SHADOW
      */
-  
-    --shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
-  
-    /**
+
+  --shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+
+  /**
      * BORDER RADIUS
      */
-  
-    --radius-24: 24px;
-    --radius-circle: 50%;
-  
-    /**
+
+  --radius-24: 24px;
+  --radius-circle: 50%;
+
+  /**
      * TRANSITION
      */
-  
-    --transition-1: 250ms ease;
-    --transition-2: 500ms ease;
-    --transition-3: 1000ms ease;
-  
-  }
 
-  .icon{
-    width: 1rem;
-    height: 1rem;
-    border: 2px solid var(--gold-crayola);
-    transform: rotate(45deg);
-  }
+  --transition-1: 250ms ease;
+  --transition-2: 500ms ease;
+  --transition-3: 1000ms ease;
+}
 
-  #hero-section {
-    height: 130vh;
-    background-image: url(images/hero-slider-1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  #hero-section .contect-box{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    border-bottom: 1px solid var(--white-alpha-20);
-  }
+.icon {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid var(--gold-crayola);
+  transform: rotate(45deg);
+}
+
+/* ======= hero section ======= */
+#hero-section {
+  height: 130vh;
+  background-image: url(images/hero-slider-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#hero-section .contect-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  border-bottom: 1px solid var(--white-alpha-20);
+}
 
 #hero-section .contect-box .left,
-#hero-section .contect-box .right{
+#hero-section .contect-box .right {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -139,14 +148,14 @@ html{
 }
 
 #hero-section .contect-box .left p,
-#hero-section .contect-box .right p{
+#hero-section .contect-box .right p {
   color: var(--white);
   font-family: var(--fontFamily-dm_sans);
   font-size: var(--fontSize-label-1);
 }
 
 #hero-section .contect-box .left p i,
-#hero-section .contect-box .right p i{
+#hero-section .contect-box .right p i {
   display: inline-block;
   padding-right: 0.8rem;
 }
