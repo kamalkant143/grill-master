@@ -441,6 +441,10 @@ a {
   position: relative;
   cursor: pointer;
 }
+
+#menu .food-type .food-box.middle-box{
+  margin-top: 15rem;
+}
 #menu .food-type .food-box  .images-box{
   position: relative;
   padding-block: 3rem;
@@ -483,7 +487,7 @@ a {
   color: var(--white);
   font-size: var(--fontSize-title-1);
   font-weight: var(--weight-regular);
-  margin-block: 2rem;
+  margin-block: 3rem;
   text-transform: capitalize;
 }
 
