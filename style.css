@@ -472,7 +472,6 @@ a {
 
 #menu .food-type .food-box .food-name  {
   text-align: center;
-  margin-top: 2rem;
 
 }
 
@@ -480,8 +479,10 @@ a {
   color: var(--white);
   font-size: var(--fontSize-title-1);
   font-weight: var(--weight-regular);
-
+  margin-block: 2rem;
+  
 }
+
 
 #menu .food-type .food-box h3{
   font-size: var(--fontSize-title-3);
