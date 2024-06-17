@@ -390,6 +390,23 @@ a {
 
 #menu {
   background-color: var(--smoky-black-1);
+  position: relative;
+}
+
+#menu .side-image{
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  animation: upDown 2s infinite alternate;
+}
+
+@keyframes upDown {
+  0% {
+      top: 0;
+  }
+  100% {
+      top: 20px; /* Change this value to adjust the distance */
+  }
 }
 
 
