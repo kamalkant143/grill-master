@@ -437,6 +437,7 @@ a {
 #menu .food-type .food-box {
   max-width: 300px;
   position: relative;
+  cursor: pointer;
 }
 #menu .food-type .food-box  .images-box{
   position: relative;
@@ -480,12 +481,11 @@ a {
   font-size: var(--fontSize-title-1);
   font-weight: var(--weight-regular);
   margin-block: 2rem;
-  
 }
 
 
 #menu .food-type .food-box h3{
-  font-size: var(--fontSize-title-3);
+  font-size: var(--fontSize-label-1);
   color: var(--gold-crayola);
   font-family: var(--fontFamily-dm_sans);
 }
