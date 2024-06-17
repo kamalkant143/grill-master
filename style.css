@@ -432,6 +432,8 @@ a {
 #menu .food-type{
   margin-inline:20rem;
   padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 #menu .food-type .food-box {
