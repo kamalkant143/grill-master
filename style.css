@@ -399,13 +399,28 @@ a {
   right: 0;
   animation: upDown 2s infinite alternate;
 }
-
 @keyframes upDown {
   0% {
       top: 0;
   }
   100% {
       top: 20px; /* Change this value to adjust the distance */
+  }
+}
+
+#menu .right-image{
+  position: absolute;
+  bottom: 0;
+  animation: Down 2s infinite alternate;
+
+}
+
+@keyframes Down {
+  0% {
+      bottom: 0;
+  }
+  100% {
+      bottom: 20px; /* Change this value to adjust the distance */
   }
 }
 
