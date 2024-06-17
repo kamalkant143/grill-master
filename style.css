@@ -484,6 +484,7 @@ a {
   font-size: var(--fontSize-title-1);
   font-weight: var(--weight-regular);
   margin-block: 2rem;
+  text-transform: capitalize;
 }
 
 
@@ -492,6 +493,7 @@ a {
   color: var(--gold-crayola);
   font-family: var(--fontFamily-dm_sans);
   transition: var(--transition-1);
+  text-transform: uppercase;
 }
 
 #menu .food-type .food-box h3:hover{
