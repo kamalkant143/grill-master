@@ -456,18 +456,19 @@ a {
   bottom: 0;
   left: 7rem;
   width: 15rem;
-  height: 40rem;
+  height: 41rem;
   background-color: var(--gold-crayola);
 }
 
 #menu .food-type .food-box  .images-box .front{
   position: relative;
+  width: 100%;
   z-index: 1;
   transition: var(--transition-2);
 }
 
-#menu .food-type .food-box  .images-box .front:hover{
-  transform: scale(1.1);
+#menu .food-type .food-box:hover .images-box .front{
+  transform:scale(1.1);
 
 }
 
@@ -488,4 +489,9 @@ a {
   font-size: var(--fontSize-label-1);
   color: var(--gold-crayola);
   font-family: var(--fontFamily-dm_sans);
+  transition: var(--transition-1);
+}
+
+#menu .food-type .food-box h3:hover{
+  color: var(--white);
 }
