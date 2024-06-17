@@ -129,8 +129,8 @@ a {
   border: 2px solid var(--gold-crayola);
   transform: rotate(45deg);
 }
-
-.btn {
+ 
+ .btn {
   font-family: var(--fontFamily-dm_sans);
   border: 1px solid var(--gold-crayola);
   padding: 2rem 5rem;
@@ -141,16 +141,18 @@ a {
   letter-spacing: var(--letterSpacing-1);
   font-weight: var(--weight-regular);
   transition: var(--transition-1);
-}
+  position: relative;
+} 
 
-.btn:hover {
+ .btn:hover {
   background-color: var(--black);
   color: var(--white);
-}
+  transition: var(--transition-1);
+} 
 
-.active {
-  color: var(--gold-crayola);
-}
+
+
+
 /* ======= hero section ======= */
 #hero-section {
   height: 120vh;
