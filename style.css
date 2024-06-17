@@ -398,15 +398,20 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-block: 10rem;
+  /* padding-block: 2rem; */
 
+}
+
+#menu .top-box .container{
+  position: relative;
+  top: 8rem;
 }
 
 #menu .top-box .container h3{
   color: var(--gold-crayola);
   font-size: var(--fontSize-label-1);
   letter-spacing: var(--letterSpacing-1);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: var(--fontFamily-dm_sans);
 }
 
@@ -418,14 +423,14 @@ a {
   color: var(--white);
   font-size: var(--fontSize-headline-1);
   font-weight: var(--weight-regular);
-  margin-block: 2rem;
+  margin-block: 3rem;
 }
 
 #menu .top-box .container p{
   color: var(--white);
   font-size: var(--fontSize-label-1);
   text-align: center;
-  line-height: var(--lineHeight-4);
+  line-height: var(--lineHeight-5);
   font-family: var(--fontFamily-dm_sans);
 }
 
