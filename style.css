@@ -431,15 +431,20 @@ a {
 
 #menu .food-type{
   margin-inline:20rem;
+  padding-bottom: 5rem;
 }
 
-#menu .food-type .images-box{
-  max-width: 400px;
+#menu .food-type .food-box {
+  max-width: 300px;
   position: relative;
-  padding-block: 5rem;
+}
+#menu .food-type .food-box  .images-box{
+  position: relative;
+  padding-block: 3rem;
+
 }
 
-#menu .food-type .images-box::before{
+#menu .food-type .food-box  .images-box::before{
   content: "";
   background-image: url("images/form-pattern.png");
   background-position: center;
@@ -450,17 +455,36 @@ a {
   bottom: 0;
   left: 7rem;
   width: 15rem;
-  height: 43rem;
+  height: 40rem;
   background-color: var(--gold-crayola);
 }
 
-#menu .food-type .images-box .front{
+#menu .food-type .food-box  .images-box .front{
   position: relative;
   z-index: 1;
   transition: var(--transition-2);
 }
 
-#menu .food-type .images-box .front:hover{
+#menu .food-type .food-box  .images-box .front:hover{
   transform: scale(1.1);
 
+}
+
+#menu .food-type .food-box .food-name  {
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
+#menu .food-type .food-box h2{
+  color: var(--white);
+  font-size: var(--fontSize-title-1);
+  font-weight: var(--weight-regular);
+
+}
+
+#menu .food-type .food-box h3{
+  font-size: var(--fontSize-title-3);
+  color: var(--gold-crayola);
+  font-family: var(--fontFamily-dm_sans);
 }
