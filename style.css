@@ -467,7 +467,7 @@ a {
 }
 
 #menu .food-type{
-  margin-inline:20rem;
+  margin-inline:15rem;
   padding-bottom: 5rem;
   display: flex;
   justify-content: space-between;
@@ -477,6 +477,7 @@ a {
   max-width: 300px;
   position: relative;
   cursor: pointer;
+  height: 52rem;
 }
 
 #menu .food-type .food-box.middle-box{
