@@ -547,11 +547,12 @@ a {
 #about{
   background-color: var(--eerie-black-3);
   display: flex;
+  padding: 15rem 0;
 }
 
 #about .left-about{
   width: 50%;
-  padding: 0 20rem;
+  padding: 0 18rem;
   text-align: center;
 }
 
@@ -571,4 +572,26 @@ a {
   font-size: var(--fontSize-headline-1);
   color: var(--white);
   margin-block: 2rem;
+  line-height: var(--lineHeight-2);
+}
+
+#about .left-about p{
+  color: var(--white);
+  font-size: var(--fontSize-label-1);
+  font-family: var(--fontFamily-dm_sans);
+  line-height: var(--lineHeight-5);
+  margin-bottom: 3rem;
+}
+
+#about .left-about span{
+  color: var(--white);
+  font-size: var(--fontSize-title-3);
+  font-family: var(--fontFamily-dm_sans);
+}
+
+#about .left-about h4{
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-title-2);
+  font-family: var(--fontFamily-dm_sans);
+  margin: 1rem 0 3rem 0;
 }
