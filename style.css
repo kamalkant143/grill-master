@@ -601,11 +601,28 @@ a {
   position: relative;
 }
 
-#about .right-about .side-img {
+#about .right-about .side-img::after{
+
+  position: absolute;
+   bottom: -6rem;
+   left: -6rem;
+}
+
+#about .right-about .side-img  img  {
    position: absolute;
    bottom: -6rem;
    left: -6rem;
-   ba
+  
+   /* display: none; */
+}
+
+#about .right-about .side-img .inner-img{
+  position: absolute;
+  bottom: -10rem;
+  left: 0rem;
+  width: 10rem;
+  height: 40rem;
+  background-color: var(--gold-crayola);
 }
 
 /* #about .right-about .top-img{
