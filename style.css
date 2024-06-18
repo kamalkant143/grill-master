@@ -547,7 +547,14 @@ a {
 #about{
   background-color: var(--eerie-black-3);
   display: flex;
-  padding: 15rem 0;
+  padding: 15rem 0  20rem 0;
+  position: relative;
+}
+
+#about .section-img{
+  position: absolute;
+  bottom: 35rem;
+  left: 0;
 }
 
 #about .left-about{
@@ -600,13 +607,6 @@ a {
   padding-left: 3rem;
   position: relative;
 }
-
-/* #about .right-about .side-img::after{
-
-  position: absolute;
-   bottom: -6rem;
-   left: -6rem;
-} */
 
 #about .right-about .side .side-image  {
    position: absolute;
