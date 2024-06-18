@@ -607,16 +607,20 @@ a {
    left: -6rem;
 }
 
-#about .right-about .top-img{
-  position: absolute;
-  top: -6rem;
+/* #about .right-about .top-img{
+  top: 0rem;
   right: 0;
-  /* position: relative; */
-}
+  position: absolute;
+} */
 #about .right-about .top-img .simple{
-  
+  position: absolute;
+ top: -6rem;
+  right: 14rem;
 } 
 
 #about .right-about .top-img .rotate-img{
   position: absolute;
+  top: -6rem;
+  right: 14rem;
+  
 }
