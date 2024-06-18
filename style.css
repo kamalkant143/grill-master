@@ -584,7 +584,9 @@ a {
 
 #about .left-about p{
   color: var(--white);
-  font-size: var(--fontSize-label-1);
+  /* font-size: var(--fontSize-title-2); */
+  font-size: var(--fontSize-body-4);
+
   font-family: var(--fontFamily-dm_sans);
   line-height: var(--lineHeight-5);
   margin-bottom: 3rem;
