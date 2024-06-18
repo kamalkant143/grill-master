@@ -541,3 +541,9 @@ a {
 #menu .food-type .food-box h3:hover{
   color: var(--white);
 }
+
+/* ==== about section ===== */
+
+#about{
+  background-color: var(--eerie-black-3);
+}
