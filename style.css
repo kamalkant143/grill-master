@@ -744,3 +744,33 @@ a {
   bottom: 8rem;
   right: 0;
 }
+
+/* ======== menu1 section ========== */
+#menu1 {
+  background-color: var(--eerie-black-3);
+
+}
+
+#menu1 .top-box{
+  text-align: center;
+}
+
+#menu1 .top-box h3{
+  color: var(--gold-crayola);
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-label-1);
+  letter-spacing: var(--letterSpacing-4);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+#menu1 .top-box .separator{
+  width: 12rem;
+}
+
+#menu1 .top-box h2{
+  font-size: var(--fontSize-headline-1);
+  color: var(--white);
+  margin-block: 2rem;
+  line-height: var(--lineHeight-2);
+}
