@@ -746,4 +746,32 @@ margin-left: 2rem;
   position: absolute;
   top: 17rem;
   left: 10rem;
+animation: up 3s linear infinite;
+
+
+}
+
+
+
+
+
+/* @keyframes up {
+  0% {
+      top: 12rem;
+  }
+  100% {
+      bottom: 5rem; 
+      
+  }
+} */
+@keyframes up {
+  0% {
+      top: 13rem;
+  }
+  50% {
+      top: 20rem; /* Yeh value adjust kar sakte hain */
+  }
+  100% {
+      top: 13rem;
+  }
 }
