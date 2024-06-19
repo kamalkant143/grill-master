@@ -717,6 +717,7 @@ a {
 
 #special-dish .right-dish .btn {
   margin-top: 4rem;
+  cursor: pointer;
 }
 
 #special-dish .right-dish .updown {
@@ -736,4 +737,10 @@ a {
   100% {
     top: 13rem;
   }
+}
+
+#special-dish .right-dish .logo2{
+  position: absolute;
+  bottom: 8rem;
+  right: 0;
 }
