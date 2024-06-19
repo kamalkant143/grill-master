@@ -679,14 +679,7 @@ background-color: var(--black);
 }
 
 
-#special-dish .right-dish h3{
-  color: var(--gold-crayola);
-  font-family: var(--fontFamily-dm_sans);
-  font-size: var(--fontSize-label-1);
-  letter-spacing: var(--letterSpacing-4);
-  margin-bottom: 1.5rem;
-  text-transform: uppercase;
-}
+
 
 #special-dish .right-dish{
   width: 50%;
@@ -695,7 +688,17 @@ background-color: var(--black);
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
 
+}
+
+#special-dish .right-dish h3{
+  color: var(--gold-crayola);
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-label-1);
+  letter-spacing: var(--letterSpacing-4);
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
 }
 
 #special-dish .right-dish .separator{
@@ -736,4 +739,11 @@ margin-left: 2rem;
 
 #special-dish .right-dish .btn{
   margin-top: 4rem;
+}
+
+
+#special-dish .right-dish .updown{
+  position: absolute;
+  top: 17rem;
+  left: 10rem;
 }
