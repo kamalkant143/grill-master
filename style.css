@@ -609,6 +609,15 @@ a {
   padding-left: 3rem;
   position: relative;
 }
+#about .movingImage{
+  transition: transform 0.1s ease-out;
+
+}
+
+#about .right-about .side {
+  transition: transform 0.1s ease-out;
+
+}
 
 #about .right-about .side .side-image  {
    position: absolute;
