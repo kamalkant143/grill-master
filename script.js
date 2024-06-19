@@ -11,16 +11,3 @@
 
 // });
 
-document.addEventListener('DOMContentLoaded', () => {
-    const logo = document.querySelector('.updown');
-    
-    setInterval(() => {
-        if (logo.classList.contains('animate-down')) {
-            logo.classList.remove('animate-down');
-            logo.classList.add('animate-up');
-        } else {
-            logo.classList.remove('animate-up');
-            logo.classList.add('animate-down');
-        }
-    }, 2000); // 2 seconds ke interval ke liye adjust kar sakte hain
-});
