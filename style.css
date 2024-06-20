@@ -811,4 +811,10 @@ a {
   line-height: var(--lineHeight-4);
 }
 
-#menu1 .middle-box .middle-row
+
+#menu1 .middle-box .middle-row .row{
+  width: 0.1rem;
+  height: 100%;
+  background-color: var(--gold-crayola);
+}
+
