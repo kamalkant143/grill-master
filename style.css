@@ -775,6 +775,12 @@ a {
   line-height: var(--lineHeight-2);
 }
 
+#menu1 .middle-box {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 10rem;
+}
+
 #menu1 .middle-box .left-menu .food-container{
   display: flex;
   align-items: center;
@@ -789,6 +795,11 @@ a {
 #menu1 .middle-box .left-menu .food-container .iteam-details div span{
   color: var(--white);
   font-size: var(--fontSize-title-2);
+}
+
+
+#menu1 .middle-box .left-menu .food-container .iteam-details div .amount{
+  color: var(--gold-crayola);
 }
 
 #menu1 .middle-box .left-menu .food-container .iteam-details p{
