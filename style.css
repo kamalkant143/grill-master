@@ -785,6 +785,7 @@ a {
   display: flex;
   align-items: center;
   gap: 2rem;
+  padding-inline: 10rem;
 }
 
 #menu1 .middle-box .left-menu .food-container .iteam-details div{
@@ -807,4 +808,5 @@ a {
   font-family: var(--fontFamily-dm_sans);
   font-size: var(--fontSize-label-1);
   margin-top: 1rem;
+  line-height: var(--lineHeight-4);
 }
