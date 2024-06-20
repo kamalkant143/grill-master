@@ -748,7 +748,7 @@ a {
 /* ======== menu1 section ========== */
 #menu1 {
   background-color: var(--eerie-black-3);
-  
+
 }
 
 #menu1 .top-box{
@@ -774,3 +774,5 @@ a {
   margin-block: 2rem;
   line-height: var(--lineHeight-2);
 }
+
+#menu1 .middle-box .left-menu .food-container
