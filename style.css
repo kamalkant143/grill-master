@@ -782,13 +782,16 @@ a {
 }
 
 #menu1 .middle-box .left-menu{
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 #menu1 .middle-box .left-menu .food-container{
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 5rem;
   padding-inline: 10rem;
 }
 
