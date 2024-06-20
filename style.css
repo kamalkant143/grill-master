@@ -775,4 +775,25 @@ a {
   line-height: var(--lineHeight-2);
 }
 
-#menu1 .middle-box .left-menu .food-container
+#menu1 .middle-box .left-menu .food-container{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+#menu1 .middle-box .left-menu .food-container .iteam-details div{
+  display: flex;
+  gap: 5rem;
+}
+
+#menu1 .middle-box .left-menu .food-container .iteam-details div span{
+  color: var(--white);
+  font-size: var(--fontSize-title-2);
+}
+
+#menu1 .middle-box .left-menu .food-container .iteam-details p{
+  color: var(--davys-grey);
+  font-family: var(--fontFamily-dm_sans);
+  font-size: var(--fontSize-label-1);
+  margin-top: 1rem;
+}
