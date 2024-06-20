@@ -781,6 +781,10 @@ a {
   margin-inline: 10rem;
 }
 
+#menu1 .middle-box .left-menu{
+  margin-bottom: 4rem;
+}
+
 #menu1 .middle-box .left-menu .food-container{
   display: flex;
   align-items: center;
@@ -813,8 +817,8 @@ a {
 
 
 #menu1 .middle-box .middle-row .row{
-  width: 0.1rem;
+  width: 0.05rem;
   height: 100%;
-  background-color: var(--gold-crayola);
+  background-color: var(--white-alpha-10);
 }
 
