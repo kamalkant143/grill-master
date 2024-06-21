@@ -925,4 +925,29 @@ a {
   width: 1rem;
   height: 1rem;
   border: 1px solid var(--gold-crayola);
+  animation: gol 10s linear infinite;
+
+}
+
+@keyframes gol {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#contact .container  img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50rem;
+}
+
+#contact .container  h3{
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-label-1);
+  font-family: var(--fontFamily-dm_sans);
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
