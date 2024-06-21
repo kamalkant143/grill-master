@@ -742,7 +742,7 @@ a {
 
 #special-dish .right-dish .logo2{
   position: absolute;
-  bottom: 8rem;
+  bottom: 15rem;
   right: 0;
 }
 
@@ -750,7 +750,14 @@ a {
 #menu1 {
   background-color: var(--eerie-black-3);
   padding-block: 10rem;
+  position: relative;
 
+}
+
+#menu1 .center-img{
+  position: absolute;
+  top: -18rem;
+  right: 0;
 }
 
 #menu1 .top-box{
@@ -841,5 +848,17 @@ a {
 #menu1 .bottom-box {
   margin-top: 5rem;
   text-align: center;
+}
+
+#menu1 .bottom-box h3{
+  font-size: var(--fontSize-label-1);
+  color: var(--white);
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  font-family: var(--fontFamily-dm_sans);
+}
+
+#menu1 .bottom-box h3 span{
+  color: var(--gold-crayola);
 }
 
