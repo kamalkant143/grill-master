@@ -792,22 +792,31 @@ a {
 
 #menu1 .middle-box .left-menu .food-container .iteam-details div{
   display: flex;
+  align-items: center;
   gap: 5rem;
 }
 
 #menu1 .middle-box .left-menu .food-container .iteam-details div span{
   color: var(--white);
   font-size: var(--fontSize-title-2);
+  text-transform: capitalize;
 }
 
+#menu1 .middle-box .left-menu .food-container .iteam-details div .seasonal  {
+  display: inline-block;
+  background-color: var(--gold-crayola);
+  color: var(--black);
+  font-size: var(--fontSize-label-1);
+  text-transform: uppercase;
+  font-family: var(--fontFamily-dm_sans);
+  padding: 0.3rem .5rem;
+  margin-left: -3rem;
+}         
 
 #menu1 .middle-box .left-menu .food-container .iteam-details div .amount{
   color: var(--gold-crayola);
 }
 
-#menu1 .middle-box .left-menu .food-container .iteam-details div .seasonal  {
-
-}                           
 
 
 #menu1 .middle-box .left-menu .food-container .iteam-details p{
