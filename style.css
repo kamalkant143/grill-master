@@ -888,3 +888,11 @@ a {
   color: var(--gold-crayola);
 }
 
+/* ====== contact section ====== */
+
+#contact{
+  background-image: url("images/testimonial-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
