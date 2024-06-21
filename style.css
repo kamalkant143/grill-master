@@ -805,6 +805,11 @@ a {
   color: var(--gold-crayola);
 }
 
+#menu1 .middle-box .left-menu .food-container .iteam-details div .seasonal  {
+
+}                           
+
+
 #menu1 .middle-box .left-menu .food-container .iteam-details p{
   color: var(--davys-grey);
   font-family: var(--fontFamily-dm_sans);
