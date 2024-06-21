@@ -154,7 +154,7 @@ a {
 
 /* ======= hero section ======= */
 #hero-section {
-  height: 120vh;
+  /* height: 120vh; */
   background-image: url(images/hero-slider-1.jpg);
   background-size: cover;
   background-position: center;
@@ -339,6 +339,7 @@ a {
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 6rem;
+  padding-bottom: 5rem;
 }
 
 #hero-section .rotate-logo .logo-box .main-rotate {
@@ -749,7 +750,7 @@ a {
 /* ======== menu1 section ========== */
 #menu1 {
   background-color: var(--eerie-black-3);
-  padding-top: 13rem;
+  padding-block: 13rem;
   position: relative;
 
 }
