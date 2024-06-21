@@ -143,6 +143,7 @@ a {
   font-weight: var(--weight-regular);
   transition: var(--transition-1);
   position: relative;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -748,6 +749,7 @@ a {
 /* ======== menu1 section ========== */
 #menu1 {
   background-color: var(--eerie-black-3);
+  padding-block: 10rem;
 
 }
 
@@ -778,6 +780,7 @@ a {
 #menu1 .middle-box {
   display: flex;
   justify-content: space-between;
+  margin-top: 5rem;
   margin-inline: 10rem;
 }
 
@@ -787,7 +790,7 @@ a {
   align-items: center;
   gap: 2rem;
   margin-bottom: 5rem;
-  padding-inline: 10rem;
+  padding-inline: 7rem;
 }
 
 #menu1 .middle-box .left-menu .food-container .iteam-details div{
@@ -825,6 +828,7 @@ a {
   font-size: var(--fontSize-label-1);
   margin-top: 1rem;
   line-height: var(--lineHeight-4);
+  padding-right: 2rem;
 }
 
 
@@ -832,5 +836,10 @@ a {
   width: 0.05rem;
   height: 100%;
   background-color: var(--white-alpha-10);
+}
+
+#menu1 .bottom-box {
+  margin-top: 5rem;
+  text-align: center;
 }
 
