@@ -943,12 +943,20 @@ a {
   margin-top: 1rem;
 }
 
+
+/* ======== detail section ======== */
+
 #detail-section {
   background-color: var(--eerie-black-3);
+  position: relative;
+  /* padding-bottom: 5rem; */
 }
 
 #detail-section .online-booking {
   padding-inline: 15rem;
+  /* position: absolute;
+  top: -30rem; 
+  left: 20rem; */
 }
 
 #detail-section .online-booking .booking-box {
@@ -1109,13 +1117,25 @@ a {
   margin-top: 1rem;
 }
 
+#detail-section .online-booking .booking-box .right-box span{
+  margin-top: 3rem;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid var(--gold-crayola);
+  transform: rotate(45deg);
+}
+
 #detail-section .online-booking .booking-box .right-box .address{
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 #detail-section .online-booking .booking-box .right-box .address p{
-  font-size: var(--fontSize-body-3);
+  color: var(--quick-silver);
+  font-size: var(--fontSize-body-4);
   font-family: var(--fontFamily-dm_sans);
   padding-inline: 5rem;
   font-weight: var(--weight-regular);
+  margin-top: 1rem;
+  line-height: var(--lineHeight-4);
 }
