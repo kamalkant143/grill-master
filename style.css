@@ -1086,7 +1086,36 @@ a {
 
 #detail-section .online-booking .booking-box .right-box {
   width: 30%;
-  /* background-color: red;
-   */
   background-image: url("images/form-pattern.png");
+  text-align: center;
+  color: var(--white);
+  padding-block: 9rem;
+}
+
+#detail-section .online-booking .booking-box .right-box h1{
+  font-size: var(--fontSize-headline-1);
+  font-weight: var(--weight-regular);
+  margin-bottom: 5rem;
+}
+
+#detail-section .online-booking .booking-box .right-box h3{
+  font-size: var(--fontSize-body-3);
+  font-family: var(--fontFamily-dm_sans);
+}
+
+#detail-section .online-booking .booking-box .right-box h2{
+  font-size: var(--fontSize-title-1);
+  color: var(--gold-crayola);
+  margin-top: 1rem;
+}
+
+#detail-section .online-booking .booking-box .right-box .address{
+  margin-top: 5rem;
+}
+
+#detail-section .online-booking .booking-box .right-box .address p{
+  font-size: var(--fontSize-body-3);
+  font-family: var(--fontFamily-dm_sans);
+  padding-inline: 5rem;
+  font-weight: var(--weight-regular);
 }
