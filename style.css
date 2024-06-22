@@ -970,21 +970,24 @@ a {
 }
 
 #detail-section .online-booking .booking-box .left-box {
-  width: 60%;
-  background-color: rebeccapurple;
-  /* text-align: center; */
+  width: 70%;
+  padding: 8rem 6rem;
 }
 
 #detail-section .online-booking .booking-box .left-box h2{
   color: var(--white);
   font-size: var(--fontSize-headline-1);
   font-weight: var(--weight-regular);
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 #detail-section .online-booking .booking-box .left-box p{
   color: var(--white);
-  font-size: var(--fontSize-title-3);
+  font-size: var(--fontSize-body-2);
   font-family: var(--fontFamily-dm_sans);
+  text-align: center;
+  margin-bottom: 5rem;
 
 }
 
@@ -994,7 +997,6 @@ a {
 
 #detail-section .online-booking .booking-box .left-box .form-box .person-box{
   width: 100%;
-  background-color: red;
   display: flex;
   gap: 2rem;
 }
@@ -1013,18 +1015,20 @@ a {
 
 }
 
-#detail-section .online-booking .booking-box .left-box .form-box .person-box input:focus{
+#detail-section .online-booking .booking-box .left-box .form-box .person-box input:focus,
+#detail-section .online-booking .booking-box .left-box .form-box textarea:focus,
+#detail-section .online-booking .booking-box .left-box .form-box  div select:focus{
   outline: 1px solid var(--gold-crayola);
 }
 
 #detail-section .online-booking .booking-box .left-box .form-box  div{
-  background-color: palegreen;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+  border: none;
 }
 
 #detail-section .online-booking .booking-box .left-box .form-box  div select,
@@ -1040,6 +1044,21 @@ a {
 #detail-section .online-booking .booking-box .left-box .form-box textarea{
   width: 100%;
   height: 15rem;
+  margin-block: 2rem;
+  padding: 2rem;
+  font-size: var(--fontSize-body-4);
+  background-color: var(--eerie-black-3);
+  color: var(--white);
+  resize: none;
+border: none;
 }
 
-#detail-section .online-booking .booking-box .left-box .form-box button
+#detail-section .online-booking .booking-box .left-box .form-box textarea::placeholder{
+  text-transform: capitalize;
+  color: var(--white);
+  font-family: var(--fontFamily-dm_sans);
+}
+
+#detail-section .online-booking .booking-box .left-box .form-box .btn {
+ width: 100%;
+}
