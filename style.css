@@ -952,3 +952,46 @@ a {
   text-transform: uppercase;
   margin-top: 1rem;
 }
+
+
+#detail-section {
+  background-color: var(--eerie-black-3);
+}
+
+#detail-section .online-booking {
+  padding-inline: 15rem;
+}
+
+#detail-section .online-booking .booking-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+
+}
+
+#detail-section .online-booking .booking-box .left-box {
+  width: 60%;
+  background-color: rebeccapurple;
+  /* text-align: center; */
+}
+
+#detail-section .online-booking .booking-box .left-box h2{
+  color: var(--white);
+  font-size: var(--fontSize-headline-1);
+  font-weight: var(--weight-regular);
+}
+
+#detail-section .online-booking .booking-box .left-box p{
+  color: var(--white);
+  font-size: var(--fontSize-title-3);
+  font-family: var(--fontFamily-dm_sans);
+
+}
+
+#detail-section .online-booking .booking-box .left-box p span{
+  color: var(--gold-crayola);
+}
+
+#detail-section .online-booking .booking-box .left-box .form-box .person-box input{
+  background-color: var(--eerie-black-3);
+}
