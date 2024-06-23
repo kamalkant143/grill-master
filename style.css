@@ -946,9 +946,9 @@ a {
 
 
 #contact  .online-booking {
-padding-inline: 15rem;
+  width: 80%;
   position: absolute;
-  left: 8rem;
+  left: 14rem;
   bottom: -45rem;
 }
 
@@ -959,7 +959,7 @@ display: flex;
 }
 
 #contact  .online-booking .booking-box .left-box {
-width: 70%;
+width: 65%;
   padding: 8rem 6rem;
 }
 
@@ -1086,7 +1086,7 @@ width: 70%;
 }
 
 #contact  .online-booking .booking-box .right-box {
-  width: 30%;
+  width: 35%;
   background-image: url("images/form-pattern.png");
   text-align: center;
   color: var(--white);
@@ -1133,9 +1133,15 @@ width: 70%;
   line-height: var(--lineHeight-4);
 }
 
+/* ======== detail section ======== */
+
+#detail-section{
+  background-color: var(--eerie-black-1);
+  padding-top: 55rem;
+}
+
 #detail-section .top-box{
   text-align: center;
-  /* margin-top: 15rem; */
 }
 
 #detail-section .top-box  h3 {
