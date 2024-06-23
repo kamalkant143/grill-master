@@ -1138,6 +1138,7 @@ width: 65%;
 #detail-section{
   background-color: var(--eerie-black-1);
   padding-top: 55rem;
+  
 }
 
 #detail-section .top-box{
@@ -1166,6 +1167,12 @@ width: 65%;
 #detail-section .bottom-box{
   padding-bottom: 8rem;
   margin-top: 5rem;
+  position: relative;
+}
+
+#detail-section .bottom-box .shape-8{
+  position: absolute;
+  bottom: 6rem;
 }
 
 #detail-section .bottom-box .main-box{
