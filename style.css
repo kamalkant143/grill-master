@@ -1162,3 +1162,43 @@ width: 65%;
   font-weight: var(--weight-regular);
   margin-block: 3rem;
 }
+
+#detail-section .bottom-box{
+  padding-bottom: 8rem;
+}
+
+#detail-section .bottom-box .main-box{
+  width: 80%;
+  margin: auto;
+}
+
+
+#detail-section .bottom-box .main-box .box{
+  background-color: var(--eerie-black-3);
+  max-width: 250px;
+}
+
+#detail-section .bottom-box .main-box .box .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 2rem;
+}
+
+#detail-section .bottom-box .main-box .box .details{
+  text-align: center;
+}
+
+#detail-section .bottom-box .main-box .box .details h2{
+  color: var(--white);
+  font-size: var(--fontSize-body-1);
+  font-weight: var(--weight-regular);
+}
+
+#detail-section .bottom-box .main-box .box .details p{
+  color: var(--quick-silver);
+  font-size: var(--fontSize-body-2);
+  font-family: var(--fontFamily-dm_sans);
+  padding: 2rem 1.5rem 4rem 1.5rem;
+}
+
