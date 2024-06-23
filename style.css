@@ -1180,6 +1180,7 @@ width: 65%;
   margin: auto;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 
@@ -1222,3 +1223,32 @@ width: 65%;
   padding: 2rem 1.5rem 4rem 1.5rem;
 }
 
+/* ======= event section ======== */
+
+#event{
+  background-color: var(--smoky-black-1);
+}
+
+#event .top-box {
+  text-align: center;
+  padding-top:12rem;
+}
+
+#event .top-box  h3 {
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-label-1);
+  letter-spacing: var(--letterSpacing-1);
+  margin-bottom: 2rem;
+  font-family: var(--fontFamily-dm_sans);
+}
+
+#event .top-box  img {
+  width: 12rem;
+}
+
+#event .top-box  h2 {
+  color: var(--white);
+  font-size: var(--fontSize-headline-1);
+  font-weight: var(--weight-regular);
+  margin-block: 3rem;
+}
