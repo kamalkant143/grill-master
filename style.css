@@ -1252,3 +1252,14 @@ width: 65%;
   font-weight: var(--weight-regular);
   margin-block: 3rem;
 }
+
+#event .container {
+  width: 70%;
+  margin: auto;
+}
+
+#event .container .box{
+  display: flex;
+  justify-content: space-between;
+  
+}
