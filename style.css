@@ -1253,6 +1253,10 @@ width: 65%;
   margin-block: 3rem;
 }
 
+#event .bottom-box {
+  padding: 5rem 0;
+}
+
 #event .bottom-box .container {
   width: 70%;
   margin: auto;
