@@ -655,6 +655,7 @@ a {
 /* ======== special dish section ========== */
 #special-dish {
   display: flex;
+  justify-content: space-between;
   background-color: var(--black);
 }
 
@@ -757,8 +758,9 @@ a {
 
 #menu1 .center-img {
   position: absolute;
-  top: -18rem;
+  top: -12rem;
   right: 0;
+  width: 23rem;
 }
 
 #menu1 .back-img {

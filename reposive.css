@@ -2,6 +2,36 @@
     #menu .food-type {
         margin-inline: 5rem;
     }
+
+    #special-dish .right-dish .logo2,
+    #menu1 .center-img {
+       display: none;
+      }
+
+      #special-dish .right-dish {
+       
+        padding: 0 10rem 0 10rem;
+      }
+
+      #special-dish .right-dish .updown {
+        position: absolute;
+        top: 12rem;
+        left: 5rem;
+        animation: up 6s linear infinite;
+    }
+
+    @keyframes up {
+        0% {
+          top: 10em;
+        }
+        50% {
+          top: 16rem;
+        }
+        100% {
+          top: 10rem;
+        }
+      }
+
 }
 
 @media(max-width:1040px){
