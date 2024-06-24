@@ -1263,3 +1263,27 @@ width: 65%;
   justify-content: space-between;
   
 }
+
+#event .container .box .inner-box{
+  position: relative;
+}
+
+#event .container .box .inner-box .event-details {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+#event .container .box .inner-box .event-details h3{
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-body-2);
+  font-family: var(--fontFamily-dm_sans);
+  letter-spacing: var(--letterSpacing-1);
+  padding-bottom: 2rem;
+}
+
+#event .container .box .inner-box .event-details p{
+  color: var(--white);
+  font-size: var(--fontSize-body-1);
+}
