@@ -1268,6 +1268,16 @@ width: 65%;
   position: relative;
 }
 
+#event .container .box .inner-box .date{
+  background-color: var(--black);
+  color: var(--gold-crayola);
+  font-size: var(--fontSize-body-2);
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+
 #event .container .box .inner-box .event-details {
   position: absolute;
   bottom: 0;
