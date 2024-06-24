@@ -1,0 +1,40 @@
+@media(max-width:1180px) {
+    #menu .food-type {
+        margin-inline: 5rem;
+    }
+}
+
+@media(max-width:1040px){
+
+
+    #hero-section .contect-box {
+        justify-content: center;
+    }
+
+    #hero-section .contect-box .left{
+        display: none;
+    }
+
+    #menu .top-box .container {
+        top: 0rem;
+        padding: 8rem 0;
+    }
+
+    #menu .food-type {
+        gap: 1rem;
+        margin-inline: 3rem;
+
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #menu .food-type .food-box.middle-box {
+        margin-top: 0rem;
+      }
+}
+
+@media(max-width:930px){
+    #hero-section header .nav-bar {
+        display: none;
+    }
+}
