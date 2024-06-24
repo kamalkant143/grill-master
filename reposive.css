@@ -10,14 +10,12 @@
 
       #special-dish .right-dish {
        
-        padding: 0 10rem 0 10rem;
+        padding: 0 7rem 0 7rem;
       }
 
       #special-dish .right-dish .updown {
-        position: absolute;
         top: 12rem;
-        left: 5rem;
-        animation: up 6s linear infinite;
+        left: 2rem;
     }
 
     @keyframes up {
@@ -61,6 +59,16 @@
     #menu .food-type .food-box.middle-box {
         margin-top: 0rem;
       }
+
+      #special-dish .right-dish {
+       
+        padding: 3rem 7rem 3rem 7rem;
+      }
+
+      #special-dish .right-dish .updown {
+        top: 12rem;
+        left: 2rem;
+    }
 }
 
 @media(max-width:935px){
@@ -87,6 +95,23 @@
     }
 
 
+}
+
+@media(max-width:865px){
+    #special-dish {
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    #special-dish .left-dish {
+        width: 100%;
+      }
+
+      
+#special-dish .left-dish img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media(max-width:700px){
