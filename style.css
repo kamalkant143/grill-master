@@ -1254,7 +1254,8 @@ width: 65%;
 }
 
 #event .bottom-box {
-  padding: 5rem 0;
+  padding: 7rem 0;
+  text-align: center;
 }
 
 #event .bottom-box .container {
@@ -1302,4 +1303,8 @@ width: 65%;
 #event .bottom-box .container .box .inner-box .event-details p{
   color: var(--white);
   font-size: var(--fontSize-body-1);
+}
+
+#event .bottom-box .btn{
+  margin-top: 5rem;
 }
