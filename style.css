@@ -1258,7 +1258,7 @@ width: 65%;
 }
 
 #event .bottom-box .container {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -1273,10 +1273,6 @@ width: 65%;
   transition: var(--transition-1);
 }
 
-#event .bottom-box .container .box .inner-box:hover img{
-  transform: skew();
-  
-}
 
 #event .bottom-box .container .box .inner-box .date{
   background-color:var(--black);
