@@ -1265,15 +1265,21 @@ width: 65%;
 #event .bottom-box .container .box{
   display: flex;
   justify-content: space-between;
-  
+  gap: 3rem;
 }
 
 #event .bottom-box .container .box .inner-box{
   position: relative;
+  transition: var(--transition-1);
+}
+
+#event .bottom-box .container .box .inner-box:hover img{
+  transform: skew();
+  
 }
 
 #event .bottom-box .container .box .inner-box .date{
-  background-color: var(--black);
+  background-color:var(--black);
   color: var(--gold-crayola);
   font-size: var(--fontSize-body-2);
   padding: 0.5rem 1rem;
