@@ -33,8 +33,37 @@
       }
 }
 
-@media(max-width:930px){
+@media(max-width:935px){
     #hero-section header .nav-bar {
         display: none;
     }
+
+    #hero-section .rotate-logo .logo-box {
+        margin-right: 5rem;
+        padding-bottom: 3rem;
+      }
+
+      #menu .food-type {
+        gap: 4rem;
+        margin-inline: 3rem;
+   justify-content:space-around;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #menu .side-image,
+    #menu .right-image {
+        display: none;
+    }
+
+
+}
+
+@media(max-width:700px){
+    #hero-section .rotate-logo .logo-box {
+        margin-right: 2.2rem;
+        padding-bottom: 2.2rem;
+      }
+
+     
 }
