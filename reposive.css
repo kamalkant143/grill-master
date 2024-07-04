@@ -34,6 +34,10 @@
     padding-inline: 3rem;
   }
 
+  #contact  .online-booking {
+    width: 80%;
+    left: 12rem;
+  }
   
 }
 
@@ -46,6 +50,12 @@
   #menu1 .middle-box .left-menu .food-container {
     padding-inline: 4rem;
   }
+
+  #contact  .online-booking {
+    width: 90%;
+    left: 5rem;
+  }
+  
 }
 
 @media (max-width: 1040px) {
