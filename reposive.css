@@ -57,8 +57,9 @@
 }
 
   #contact  .online-booking {
-    width: 90%;
-    left: 5rem;
+    width: 100%;
+    left: 2rem;
+  
   }
   
 }
