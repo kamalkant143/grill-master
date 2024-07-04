@@ -57,10 +57,14 @@
 }
 
   #contact  .online-booking {
-    width: 95%;
-    left: 2rem;
+    width: 90%;
+    /* left: 2rem; */
   
   }
+
+  #contact  .online-booking .booking-box .left-box {
+    padding: 8rem 4rem;
+}
   
 }
 
