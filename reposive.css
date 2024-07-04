@@ -51,6 +51,11 @@
     padding-inline: 4rem;
   }
 
+  #contact .container {
+    padding-inline: 15rem;
+    padding-block: 7rem;
+}
+
   #contact  .online-booking {
     width: 90%;
     left: 5rem;
