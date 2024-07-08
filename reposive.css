@@ -1,3 +1,5 @@
+/* 
+
 @media (max-width: 1180px) {
   #menu .food-type {
     margin-inline: 5rem;
@@ -58,7 +60,6 @@
 
   #contact  .online-booking {
     width: 90%;
-    /* left: 2rem; */
   
   }
 
@@ -204,4 +205,28 @@
     padding-bottom: 2.2rem;
   }
 
+} */
+
+@media (max-width: 1020px) {
+  #hero-section .contect-box {
+    justify-content: center;
+  }
+
+  #hero-section .contect-box .left {
+    display: none;
+  }
+}
+
+@media (max-width: 940px) {
+  #hero-section header .nav-bar {
+    display: none;
+  }
+
+  #hero-section .rotate-logo .logo-box {
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 730px) {
 }
