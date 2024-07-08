@@ -207,6 +207,12 @@
 
 } */
 
+@media (max-width: 1190px) {
+  #menu .food-type {
+    margin-inline: 3rem;
+  }
+}
+
 @media (max-width: 1020px) {
   #hero-section .contect-box {
     justify-content: center;
@@ -215,8 +221,23 @@
   #hero-section .contect-box .left {
     display: none;
   }
+
+  #menu .top-box .container {
+    padding-block: 5rem;
+    top: 0rem;
+  }
+
+  #menu .food-type .food-box.middle-box {
+    margin-top: 0rem;
+  }
+
+  #menu .food-type {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
+/* ======== moblie screen ======= */
 @media (max-width: 940px) {
   #hero-section header .nav-bar {
     display: none;
@@ -226,7 +247,9 @@
     margin-right: 3rem;
     padding-bottom: 3rem;
   }
-}
 
-@media (max-width: 730px) {
+  #menu .side-image,
+  #menu .right-image {
+    display: none;
+  }
 }
