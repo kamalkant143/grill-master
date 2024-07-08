@@ -228,13 +228,16 @@
   }
 
   #menu .food-type .food-box.middle-box {
-    margin-top: 0rem;
+    margin-top: 3rem;
   }
 
   #menu .food-type {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  #menu .food-type .food-box {
+   margin-top: 3rem;
+}
 }
 
 /* ======== moblie screen ======= */
