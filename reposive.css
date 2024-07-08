@@ -209,10 +209,20 @@
 
 @media (max-width: 1190px) {
   #menu .food-type {
-    margin-inline: 3rem;
+    padding-inline: 3rem;
   }
+
+  #about .right-about {
+  
+    padding-left: 0rem;
 }
 
+#special-dish .right-dish {
+  padding: 0 10rem 0 10rem;
+ 
+}
+
+}
 @media (max-width: 1020px) {
   #hero-section .contect-box {
     justify-content: center;
@@ -236,8 +246,8 @@
     justify-content: space-around;
   }
   #menu .food-type .food-box {
-   margin-top: 3rem;
-}
+    margin-top: 3rem;
+  }
 }
 
 /* ======== moblie screen ======= */

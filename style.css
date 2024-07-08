@@ -462,7 +462,7 @@ a {
 }
 
 #menu .food-type {
-  margin-inline: 15rem;
+padding-inline: 15rem;
   padding-bottom: 5rem;
   display: flex;
   justify-content: space-between;
