@@ -213,15 +213,29 @@
   }
 
   #about .right-about {
-  
     padding-left: 0rem;
+  }
+
+  #special-dish .right-dish {
+    padding: 0 7rem 0 7rem;
+  }
+  #special-dish .right-dish .updown {
+    left: 2rem;
+  }
+
+  #menu1 .middle-box {
+  
+    padding-inline: 0rem;
 }
 
-#special-dish .right-dish {
-  padding: 0 10rem 0 10rem;
+#menu1 .middle-row {
+display: none;
+}
+
+#menu1 .middle-box .left-menu .food-container {
  
+  padding-inline: 3rem;
 }
-
 }
 @media (max-width: 1020px) {
   #hero-section .contect-box {
@@ -248,6 +262,11 @@
   #menu .food-type .food-box {
     margin-top: 3rem;
   }
+
+  #menu1 .middle-box .left-menu .food-container {
+ 
+    padding-inline: 2rem;
+  }
 }
 
 /* ======== moblie screen ======= */
@@ -265,4 +284,17 @@
   #menu .right-image {
     display: none;
   }
+
+  #special-dish .right-dish {
+    padding-block: 3rem;
+  }
+
+  #special-dish .right-dish .logo2,
+  #menu1 .center-img {
+    display: none;
+  }
+
+  #menu1 .back-img {
+   display: none;
+}
 }
