@@ -224,18 +224,16 @@
   }
 
   #menu1 .middle-box {
-  
     padding-inline: 0rem;
-}
+  }
 
-#menu1 .middle-row {
-display: none;
-}
+  #menu1 .middle-row {
+    display: none;
+  }
 
-#menu1 .middle-box .left-menu .food-container {
- 
-  padding-inline: 3rem;
-}
+  #menu1 .middle-box .left-menu .food-container {
+    padding-inline: 3rem;
+  }
 }
 @media (max-width: 1020px) {
   #hero-section .contect-box {
@@ -264,7 +262,6 @@ display: none;
   }
 
   #menu1 .middle-box .left-menu .food-container {
- 
     padding-inline: 2rem;
   }
 }
@@ -295,6 +292,19 @@ display: none;
   }
 
   #menu1 .back-img {
-   display: none;
-}
+    display: none;
+  }
+  #menu1 {
+    padding-block: 8rem;
+  }
+
+  #menu1 .middle-box {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5rem;
+  }
+
+  #menu1 .bottom-box {
+    margin-top: 2rem;
+  }
 }
