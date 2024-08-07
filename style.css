@@ -1262,20 +1262,24 @@ width: 65%;
 }
 
 #event .bottom-box .container {
-  width: 80%;
-  margin: auto;
+  
+/* padding-inline: 15rem; */
 }
 
 #event .bottom-box .container .box{
   display: flex;
-  justify-content: space-between;
-  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5rem;
 }
 
 #event .bottom-box .container .box .inner-box{
   position: relative;
   transition: var(--transition-1);
 }
+
+#event .bottom-box .container .box .inner-box 
 
 
 #event .bottom-box .container .box .inner-box .date{

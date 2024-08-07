@@ -234,7 +234,11 @@
   #menu1 .middle-box .left-menu .food-container {
     padding-inline: 3rem;
   }
+
+
 }
+
+
 @media (max-width: 1020px) {
   #hero-section .contect-box {
     justify-content: center;
@@ -307,4 +311,30 @@
   #menu1 .bottom-box {
     margin-top: 2rem;
   }
+}
+
+@media (max-width: 860px){
+  #special-dish {
+    display: flex;
+    flex-direction: column;
+}
+
+#special-dish .left-dish {
+  width: 100%;
+}
+#special-dish .right-dish {
+  width: 100%;
+  padding: 3rem;
+
+}
+
+#special-dish .right-dish .updown {
+  display: none;
+}
+}
+
+@media (max-width: 660px){
+  #menu1 .middle-box {
+    padding-left: 2rem;
+}
 }
