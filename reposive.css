@@ -234,10 +234,7 @@
   #menu1 .middle-box .left-menu .food-container {
     padding-inline: 3rem;
   }
-
-
 }
-
 
 @media (max-width: 1020px) {
   #hero-section .contect-box {
@@ -275,10 +272,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 2rem;
-}
-#detail-section .bottom-box .shape-8 {
- display: none;
-}
+  }
+  #detail-section .bottom-box .shape-8 {
+    display: none;
+  }
 }
 
 /* ======== moblie screen ======= */
@@ -323,77 +320,75 @@
     margin-top: 2rem;
   }
   #detail-section .bottom-box .shape-8 {
-   display: none;
-}
-#detail-section .bottom-box .main-box {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
+    display: none;
+  }
+  #detail-section .bottom-box .main-box {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }
 
-@media (max-width: 860px){
+@media (max-width: 860px) {
   #special-dish {
     display: flex;
     flex-direction: column;
+  }
+
+  #special-dish .left-dish {
+    width: 100%;
+  }
+  #special-dish .right-dish {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  #special-dish .right-dish .updown {
+    display: none;
+  }
 }
 
-#special-dish .left-dish {
-  width: 100%;
-}
-#special-dish .right-dish {
-  width: 100%;
-  padding: 3rem;
-
-}
-
-#special-dish .right-dish .updown {
-  display: none;
-}
-}
-
-@media (max-width: 660px){
+@media (max-width: 660px) {
   #menu1 .middle-box {
     padding-left: 2rem;
-}
+  }
 }
 
-@media (max-width: 530px){
+@media (max-width: 530px) {
   #hero-section {
     padding-bottom: 5rem;
-}
-#hero-section .heading .box {
- display: none;
-}
+  }
+  #hero-section .heading .box {
+    display: none;
+  }
 
-#hero-section .heading {
- 
-  padding-inline: 5rem;
-}
+  #hero-section .heading {
+    padding-inline: 5rem;
+  }
 
   #hero-section .rotate-logo .logo-box {
     display: none;
-}
+  }
   #menu1 .middle-box {
     padding-left: 0rem;
-}
+  }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   #special-dish .right-dish {
     width: 100%;
     padding: 1.5rem;
-}
+  }
   #menu1 .middle-box .left-menu .food-container {
     display: inherit;
     padding-top: 2rem;
     padding-inline: 1.5rem;
     border-bottom: 0.1rem solid var(--gold-crayola);
-}
+  }
 
-#menu1 .middle-box .left-menu .food-container .iteam-details  {
-  padding-top: 2rem;
-}
-#menu1 .bottom-box {
-  margin-top: 4rem;
-}
+  #menu1 .middle-box .left-menu .food-container .iteam-details {
+    padding-top: 2rem;
+  }
+  #menu1 .bottom-box {
+    margin-top: 4rem;
+  }
 }
