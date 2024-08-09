@@ -276,6 +276,14 @@
   #detail-section .bottom-box .shape-8 {
     display: none;
   }
+
+  .online-booking .booking-box .left-box {
+    /* width: 65%; */
+    padding: 8rem 1.5rem;
+}
+#contact .container {
+  padding-inline: 20rem;
+}
 }
 
 /* ======== moblie screen ======= */
@@ -345,12 +353,46 @@
   #special-dish .right-dish .updown {
     display: none;
   }
+
+  .online-booking {
+    width: 90%;
+    /* margin: auto; */
+}
+
+.online-booking .booking-box {
+  flex-direction: column;
+  
+}
+
+.online-booking .booking-box .left-box {
+  width: 100%;
+  padding: 8rem 2rem;
+}
+
+.online-booking .booking-box .right-box {
+  width: 100%;
+}
+
+#contact .container {
+  padding-inline: 15rem;
+  padding-block: 5rem;
+}
 }
 
 @media (max-width: 660px) {
   #menu1 .middle-box {
     padding-left: 2rem;
   }
+
+  #contact .container {
+    padding-inline: 10rem;
+    padding-block: 5rem;
+}
+
+#contact .container h2 {
+  
+  margin-block: 3rem;
+}
 }
 
 @media (max-width: 530px) {
@@ -375,7 +417,13 @@
 
 @media (max-width: 480px) {
 
-  
+  .icon {
+   display: none;
+}
+
+  .btn-table{
+    display: none;
+  }
   #special-dish .right-dish {
     width: 100%;
     padding: 1.5rem;
@@ -393,4 +441,18 @@
   #menu1 .bottom-box {
     margin-top: 4rem;
   }
+}
+
+@media (max-width: 370px){
+
+  #hero-section .contect-box .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+  #event .bottom-box .inner-box img {
+    width:30rem;
+}
 }
