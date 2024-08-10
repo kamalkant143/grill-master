@@ -1097,10 +1097,6 @@ padding-inline: 15rem;
   text-align: center;
 }
 
-#event .bottom-box .container {
-  
-/* padding-inline: 15rem; */
-}
 
 #event .bottom-box .container .box{
   display: flex;
