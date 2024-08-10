@@ -169,6 +169,11 @@ a {
   display: none;
 }
 
+.main-nav{
+  transition: all 0.2s;
+  transform: translateX(-40rem);
+}
+
 
 /* ======= hero section ======= */
 #hero-section {

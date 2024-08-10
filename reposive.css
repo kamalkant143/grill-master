@@ -325,6 +325,13 @@
     background-color: var(--smoky-black-1);
     height: 100%;
     z-index: 55;
+    transform: translateX(-40rem);
+
+  }
+
+  .main-nav{
+    transition: all 0.2s;
+    transform: translateX(40rem);
   }
 
 
