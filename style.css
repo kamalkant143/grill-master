@@ -638,12 +638,12 @@ padding-inline: 15rem;
 
 #about .right-about .side .side-image {
   position: absolute;
-  bottom: -6rem;
-  left: -6rem;
+  bottom: -2rem;
+  left: -5rem;
   z-index: 2;
 }
 
-#about .right-about .side .inner-img {
+/* #about .right-about .side .inner-img {
   position: absolute;
   bottom: -11rem;
   left: 0rem;
@@ -651,7 +651,7 @@ padding-inline: 15rem;
   height: 38rem;
   background-color: var(--gold-crayola);
   z-index: 1;
-}
+} */
 
 #about .right-about .top-img .simple {
   position: absolute;
