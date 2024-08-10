@@ -643,16 +643,6 @@ padding-inline: 15rem;
   z-index: 2;
 }
 
-/* #about .right-about .side .inner-img {
-  position: absolute;
-  bottom: -11rem;
-  left: 0rem;
-  width: 15rem;
-  height: 38rem;
-  background-color: var(--gold-crayola);
-  z-index: 1;
-} */
-
 #about .right-about .top-img .simple {
   position: absolute;
   top: -6rem;

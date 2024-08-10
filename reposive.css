@@ -336,8 +336,8 @@
 /* ======== moblie screen ======= */
 @media (max-width: 940px) {
   .mobile {
-    display: none;
-    margin-left: 40rem;
+    display: flex;
+    /* margin-left: 40rem; */
   }
   #hero-section {
     position: relative;
@@ -520,6 +520,12 @@
     padding-inline: 15rem;
     padding-block: 5rem;
   }
+
+  #about .right-about .side .side-image {
+    width: 20rem;
+    bottom: -10rem;
+    left: 55rem;
+  }
 }
 
 @media (max-width: 660px) {
@@ -534,6 +540,10 @@
 
   #contact .container h2 {
     margin-block: 3rem;
+  }
+
+  #about .right-about .side .side-image {
+    display: none;
   }
 }
 
