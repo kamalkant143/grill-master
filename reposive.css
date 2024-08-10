@@ -436,6 +436,41 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+
+  #about {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#about .right-about {
+  width: 100%;
+  
+}
+
+#about .right-about .main {
+  width: 100%;
+}
+
+#about .left-about {
+  width: 100%;
+  padding: 2rem 2rem;
+  text-align: start;
+}
+
+#about {
+  background-color: var(--eerie-black-3);
+  display: flex;
+  padding: 8rem 0 5rem 0;
+  position: relative;
+}
+
+#about .right-about .top-img .simple {
+  right: 2rem;
+}
+
+#about .right-about .top-img .rotate-img {
+  right: 2rem;
+}
 }
 
 @media (max-width: 860px) {
