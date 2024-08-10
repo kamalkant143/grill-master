@@ -288,8 +288,43 @@
 
 /* ======== moblie screen ======= */
 @media (max-width: 940px) {
-  #hero-section header .nav-bar {
+  .mobile{
     display: none;
+    margin-left: 40rem;
+
+  }
+  #hero-section{
+    position: relative;
+  }
+  #hero-section header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    gap: 5rem;
+    top: 0;
+    
+  }
+
+  #hero-section header .nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+
+  /* .mobile .fa-solid{
+    font-size: 3rem;
+    color: var(--gold-crayola);
+    
+  } */
+  .btn-table{
+    display: none;
+  }
+  #hero-section header .nav-bar {
+    /* display: none; */
   }
 
   #hero-section .rotate-logo .logo-box {

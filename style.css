@@ -152,6 +152,16 @@ a {
   transition: var(--transition-1);
 }
 
+.mobile{
+  display: none;
+}
+
+.mobile .fa-bars{
+  font-size: 4rem;
+  color: var(--gold-crayola);
+  
+}
+
 /* ======= hero section ======= */
 #hero-section {
   background-image: url(images/hero-slider-1.jpg);
