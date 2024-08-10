@@ -300,21 +300,35 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-inline: 5rem;
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding-inline: 10rem;
     gap: 5rem;
     top: 0;
-    
+    background-color:var(--smoky-black-1) ;
+    height: 100%;
+    z-index: 55;
   }
 
   #hero-section header .nav-bar {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 5rem;
   }
+  #hero-section header {
+    margin-top:0rem;
+}
 
-
+.fa-circle-xmark{
+  display: flex;
+  font-size: 4rem;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  color: #fff;
+  cursor: pointer;
+}
   /* .mobile .fa-solid{
     font-size: 3rem;
     color: var(--gold-crayola);
@@ -323,9 +337,7 @@
   .btn-table{
     display: none;
   }
-  #hero-section header .nav-bar {
-    /* display: none; */
-  }
+  
 
   #hero-section .rotate-logo .logo-box {
     margin-right: 3rem;

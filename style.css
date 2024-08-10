@@ -162,6 +162,11 @@ a {
   
 }
 
+.fa-circle-xmark{
+  display: none;
+}
+
+
 /* ======= hero section ======= */
 #hero-section {
   background-image: url(images/hero-slider-1.jpg);
@@ -271,6 +276,7 @@ a {
   letter-spacing: var(--letterSpacing-1);
   transition: var(--transition-1);
 }
+
 
 #hero-section .container {
   text-align: center;
