@@ -471,6 +471,13 @@
 #about .right-about .top-img .rotate-img {
   right: 2rem;
 }
+
+#about .right-about .side .side-image {
+  position: absolute;
+  bottom: -10rem;
+  left: 60rem;
+  z-index: 2;
+}
 }
 
 @media (max-width: 860px) {
