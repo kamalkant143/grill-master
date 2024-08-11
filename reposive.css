@@ -235,13 +235,13 @@
     padding-inline: 3rem;
   }
 
-  #about .right-about .main{
-   width: 50rem;
+  #about .right-about .main {
+    width: 50rem;
   }
   #about .right-about .top-img .simple {
     right: 8rem;
   }
-  
+
   #about .right-about .top-img .rotate-img {
     right: 8rem;
   }
@@ -251,15 +251,15 @@
     bottom: 2rem;
     left: -5rem;
     z-index: 2;
-}
+  }
 
-#about .section-img {
-  display: none;
-}
+  #about .section-img {
+    display: none;
+  }
 
-#about .left-about {
-  padding: 0 15rem;
-}
+  #about .left-about {
+    padding: 0 15rem;
+  }
 }
 
 @media (max-width: 1020px) {
@@ -312,25 +312,24 @@
   }
 
   #about {
-    
     padding: 15rem 0 10rem 0;
-}
+  }
 
   #about .left-about {
     padding: 0 10rem;
-}
+  }
 
-#about .right-about .main{
-  width: 45rem;
- }
+  #about .right-about .main {
+    width: 45rem;
+  }
 
-#about .right-about .top-img .simple {
-  right: 6rem;
-}
+  #about .right-about .top-img .simple {
+    right: 6rem;
+  }
 
-#about .right-about .top-img .rotate-img {
-  right: 6rem;
-}
+  #about .right-about .top-img .rotate-img {
+    right: 6rem;
+  }
 }
 
 /* ======== moblie screen ======= */
@@ -339,13 +338,12 @@
     display: flex;
   }
 
-  #hero-section header.fixed .fa-circle-xmark{
+  #hero-section header.fixed .fa-circle-xmark {
     display: flex;
   }
   #hero-section {
     position: relative;
   }
- 
 
   #hero-section header .nav-bar {
     position: fixed;
@@ -361,10 +359,7 @@
     height: 100%;
     z-index: 55;
     transition: all 0.2s linear;
-
   }
-
-  
 
   .fa-circle-xmark {
     display: flex;
@@ -383,7 +378,7 @@
     color: var(--gold-crayola);
   }
 
-  .logo1{
+  .logo1 {
     display: flex;
     position: absolute;
     top: 10rem;
@@ -439,44 +434,43 @@
   #about {
     display: flex;
     flex-direction: column-reverse;
-}
+  }
 
-#about .right-about {
-  width: 100%;
-  
-}
+  #about .right-about {
+    width: 100%;
+  }
 
-#about .right-about .main {
-  width: 100%;
-}
+  #about .right-about .main {
+    width: 100%;
+  }
 
-#about .left-about {
-  width: 100%;
-  padding: 2rem 2rem;
-  text-align: start;
-}
+  #about .left-about {
+    width: 100%;
+    padding: 2rem 2rem;
+    text-align: start;
+  }
 
-#about {
-  background-color: var(--eerie-black-3);
-  display: flex;
-  padding: 8rem 0 5rem 0;
-  position: relative;
-}
+  #about {
+    background-color: var(--eerie-black-3);
+    display: flex;
+    padding: 8rem 0 5rem 0;
+    position: relative;
+  }
 
-#about .right-about .top-img .simple {
-  right: 2rem;
-}
+  #about .right-about .top-img .simple {
+    right: 2rem;
+  }
 
-#about .right-about .top-img .rotate-img {
-  right: 2rem;
-}
+  #about .right-about .top-img .rotate-img {
+    right: 2rem;
+  }
 
-#about .right-about .side .side-image {
-  position: absolute;
-  bottom: -10rem;
-  left: 60rem;
-  z-index: 2;
-}
+  #about .right-about .side .side-image {
+    position: absolute;
+    bottom: -10rem;
+    left: 60rem;
+    z-index: 2;
+  }
 }
 
 @media (max-width: 860px) {
@@ -569,11 +563,8 @@
     padding: 8rem 1.2rem;
   }
   .online-booking .booking-box .left-box .form-box div {
-     
-      gap: 1rem;
-     
+    gap: 1rem;
   }
-
 }
 
 @media (max-width: 480px) {
@@ -603,13 +594,12 @@
   }
   .online-booking {
     width: 95%;
-}
+  }
 
-  .online-booking .booking-box .left-box .form-box div select, .online-booking .booking-box .left-box .form-box div input {
-
+  .online-booking .booking-box .left-box .form-box div select,
+  .online-booking .booking-box .left-box .form-box div input {
     padding: 2rem 1rem;
-   
-}
+  }
 }
 
 @media (max-width: 370px) {
@@ -623,4 +613,95 @@
   #event .bottom-box .inner-box img {
     width: 30rem;
   }
+
+  #about .left-about {
+    padding: 2rem 1.2rem;
+  }
+
+  #special-dish .right-dish {
+    padding: 1.2rem;
+  }
+
+  #menu1 .middle-box .left-menu .food-container {
+    padding-inline: 1.2rem;
+  }
+
+  #contact .container {
+    padding-inline: 5rem;
+    padding-block: 5rem;
+  }
+  .online-booking .booking-box .left-box .form-box div {
+    flex-direction: column;
+  }
+  .online-booking .booking-box .left-box .form-box .person-box input {
+    background-color: var(--eerie-black-3);
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .online-booking .booking-box .left-box .form-box div select,
+  .online-booking .booking-box .left-box .form-box div input {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  #hero-section header .nav-bar {
+    width: 100%;
+    padding-inline: 10rem;
+  }
+}
+
+@media (max-width: 370px) {
+  #hero-section header {
+    
+    padding-inline: 2.5rem;
+}
+  #hero-section .heading {
+    padding-inline: 2rem;
+}
+#menu .top-box .container p {
+  padding-inline: 1.2rem;
+  text-align: center;
+}
+
+#menu .food-type .food-box .images-box::before {
+ 
+  left: 5rem;
+  height: 35rem;
+}
+
+#menu1 .bottom-box h3 {
+  padding-inline: 1.5rem;
+}
+
+#contact .container {
+  padding-inline: 3rem;
+  padding-block: 4rem;
+}
+
+#event .top-box {
+  padding-top: 5rem;
+}
+#event .bottom-box {
+  padding: 3rem 0;
+}
+#event .bottom-box .inner-box img {
+  width: 25rem;
+}
+.online-booking .booking-box .left-box {
+  padding: 4rem 1.2rem;
+}
+
+.online-booking .booking-box .right-box {
+ 
+  padding-block: 4rem;
+}
+
+.online-booking .booking-box .right-box .address p {
+  padding-inline: 0rem;
+}
+
+#online {
+  padding-block: 0rem;
+}
 }
