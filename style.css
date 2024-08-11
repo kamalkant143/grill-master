@@ -182,6 +182,29 @@ a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  animation: changeimage 40s linear 0.2s infinite;
+}
+
+@keyframes changeimage{
+  0%{
+    background-image: url("images/hero-slider-2.jpg");
+  }
+  20%{
+    background-image: url("images/hero-slider-3.jpg");
+
+  }
+  60%{
+    background-image: url("images/hero-slider-1.jpg");
+
+  }
+  80%{
+    background-image: url("images/hero-slider-2.jpg");
+
+  }
+  100%{
+    background-image: url("images/hero-slider-3.jpg");
+    
+  }
 }
 #hero-section .contect-box {
   display: flex;
@@ -223,7 +246,8 @@ a {
   position: fixed; /* Fixed position on scroll */
   top: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  /* width: 100%; */
   background-color:var(--eerie-black-4); /* Color change after scroll */
   z-index: 1000; /* Make sure navbar stays above other content */
   padding: 2rem;
