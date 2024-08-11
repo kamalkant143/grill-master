@@ -169,9 +169,10 @@ a {
   display: none;
 }
 
-.main-nav{
-  transition: all 0.2s;
-  transform: translateX(-40rem);
+
+#hero-section header .nav-bar.main-nav{
+  transition: all 0.2s linear;
+  left:0rem;
 }
 
 

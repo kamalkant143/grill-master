@@ -1,13 +1,16 @@
-// document.querySelector('#about').addEventListener('mousemove', (e) => {
-//     const image = document.getElementById('movingImage');
-//     const containerRect = e.currentTarget.getBoundingClientRect();
-//     const mouseX = e.clientX - containerRect.left;
-//     const mouseY = e.clientY - containerRect.top;
+let openNavBar =document.querySelector(".fa-bars");
+let closeNavBar = document.querySelector(".fa-circle-xmark")
+let navBar =document.querySelector(".nav-bar");
+ console.log(openNavBar);
+ 
 
-//     const moveX = (mouseX - containerRect.width / 2) / containerRect.width * 2; // Adjust multiplier for more/less movement
-//     const moveY = (mouseY - containerRect.height / 2) / containerRect.height * 4; // Adjust multiplier for more/less movement
 
-//     image.style.transform = `translate(${moveX}px, ${moveY}px)`;
+openNavBar.addEventListener("click",function(){
+navBar.classList.toggle("main-nav")
+})
 
-// });
 
+
+closeNavBar.addEventListener("click",function(){
+    navBar.classList.remove("main-nav")
+    })
