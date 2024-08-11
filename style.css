@@ -216,6 +216,25 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-inline: 2rem;
+  position: relative;
+}
+
+#hero-section header.fixed {
+  position: fixed; /* Fixed position on scroll */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:var(--eerie-black-4); /* Color change after scroll */
+  z-index: 1000; /* Make sure navbar stays above other content */
+  padding: 2rem;
+  transition: all 0.2s linear;
+}
+
+#hero-section header.fixed .fa-circle-xmark{
+  display: none;
+}
+#hero-section header.fixed {
+  margin-top: 0rem;
 }
 
 #hero-section header {

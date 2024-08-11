@@ -337,7 +337,6 @@
 @media (max-width: 940px) {
   .mobile {
     display: flex;
-    /* margin-left: 40rem; */
   }
   #hero-section {
     position: relative;
