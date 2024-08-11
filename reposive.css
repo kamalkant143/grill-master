@@ -338,6 +338,10 @@
   .mobile {
     display: flex;
   }
+
+  #hero-section header.fixed .fa-circle-xmark{
+    display: flex;
+  }
   #hero-section {
     position: relative;
   }
@@ -560,6 +564,16 @@
   #menu1 .middle-box {
     padding-left: 0rem;
   }
+
+  .online-booking .booking-box .left-box {
+    padding: 8rem 1.2rem;
+  }
+  .online-booking .booking-box .left-box .form-box div {
+     
+      gap: 1rem;
+     
+  }
+
 }
 
 @media (max-width: 480px) {
@@ -587,6 +601,15 @@
   #menu1 .bottom-box {
     margin-top: 4rem;
   }
+  .online-booking {
+    width: 95%;
+}
+
+  .online-booking .booking-box .left-box .form-box div select, .online-booking .booking-box .left-box .form-box div input {
+
+    padding: 2rem 1rem;
+   
+}
 }
 
 @media (max-width: 370px) {
