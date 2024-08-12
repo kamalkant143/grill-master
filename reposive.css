@@ -1,211 +1,4 @@
-/* 
 
-@media (max-width: 1180px) {
-  #menu .food-type {
-    margin-inline: 5rem;
-  }
-
-  #special-dish .right-dish .logo2,
-  #menu1 .center-img {
-    display: none;
-  }
-
-  #special-dish .right-dish {
-    padding: 0 7rem 0 7rem;
-  }
-
-  #special-dish .right-dish .updown {
-    top: 12rem;
-    left: 2rem;
-  }
-
-  @keyframes up {
-    0% {
-      top: 10em;
-    }
-    50% {
-      top: 16rem;
-    }
-    100% {
-      top: 10rem;
-    }
-  }
-
-  #menu1 .middle-box {
-    padding-top: 5rem;
-    padding-inline: 3rem;
-  }
-
-  #contact  .online-booking {
-    width: 80%;
-    left: 12rem;
-  }
-  
-}
-
-@media (max-width: 1070px) {
-  #menu1 .middle-box {
-    padding-top: 5rem;
-    padding-inline: 0rem;
-  }
-
-  #menu1 .middle-box .left-menu .food-container {
-    padding-inline: 4rem;
-  }
-
-  #contact .container {
-    padding-inline: 15rem;
-    padding-block: 7rem;
-}
-
-  #contact  .online-booking {
-    width: 90%;
-  
-  }
-
-  #contact  .online-booking .booking-box .left-box {
-    padding: 8rem 4rem;
-}
-  
-}
-
-@media (max-width: 1040px) {
-  #hero-section .contect-box {
-    justify-content: center;
-  }
-
-  #hero-section .contect-box .left {
-    display: none;
-  }
-
-  #menu .top-box .container {
-    top: 0rem;
-    padding: 8rem 0;
-  }
-
-  #menu .food-type {
-    gap: 1rem;
-    margin-inline: 3rem;
-
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  #menu .food-type .food-box.middle-box {
-    margin-top: 0rem;
-  }
-
-  #special-dish .right-dish {
-    padding: 3rem 7rem 3rem 7rem;
-  }
-
-  #special-dish .right-dish .updown {
-    top: 12rem;
-    left: 2rem;
-  }
-}
-
-@media (max-width: 935px) {
-  #hero-section header .nav-bar {
-    display: none;
-  }
-
-  #hero-section .rotate-logo .logo-box {
-    margin-right: 5rem;
-    padding-bottom: 3rem;
-  }
-
-  #menu .food-type {
-    gap: 4rem;
-    margin-inline: 3rem;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  #menu .side-image,
-  #menu .right-image {
-    display: none;
-  }
-
-  #menu1 .middle-box .left-menu .food-container {
-    padding-inline: 2rem;
-  }
-
-  #menu1 .back-img {
-    display: none;
-    
-  }
-
-  #menu1 {
-    padding-block: 8rem;
-    
-}
-}
-
-@media (max-width: 865px) {
-  #special-dish {
-    flex-direction: column;
-  }
-
-  #special-dish .left-dish {
-    width: 100%;
-  }
-
-  #special-dish .left-dish img {
-    width: 100%;
-    height: auto;
-  }
-
-  #special-dish .right-dish {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding-top: 8rem;
-  }
-
-  #special-dish .right-dish .updown {
-    left: 40rem;
-    padding-top: 2rem;
-  }
-  @keyframes up {
-    0% {
-      top: 0rem;
-    }
-    50% {
-      top: 0rem;
-    }
-    100% {
-      top: 0rem;
-    }
-  }
-
-  #menu1 {
-    padding-block: 5rem;
-  }
-
-  #menu1 .middle-box {
-    flex-direction: column;
-    padding-inline: 5rem;
-  }
-
-  #menu1 .middle-box .middle-row .row {
-    display: none;
-  }
-
-  #menu1 .bottom-box {
-    margin-top: 1rem;
-  }
-
-}
-
-@media (max-width: 700px) {
-  #hero-section .rotate-logo .logo-box {
-    margin-right: 2.2rem;
-    padding-bottom: 2.2rem;
-  }
-
-} */
 
 @media (max-width: 1190px) {
   #menu .food-type {
@@ -435,7 +228,7 @@
     flex-wrap: wrap;
   }
 
-  #detail-section .bottom-box .main-box .box:hover img{
+  #detail-section .bottom-box .main-box .box:hover img {
     transform: inherit;
   }
 
@@ -479,8 +272,6 @@
     left: 60rem;
     z-index: 2;
   }
-
-  
 }
 
 @media (max-width: 860px) {
@@ -536,9 +327,8 @@
     width: 15rem;
     bottom: -10rem;
     left: 50rem;
+  }
 }
-}
-
 
 @media (max-width: 660px) {
   #menu1 .middle-box {
@@ -672,56 +462,52 @@
 
 @media (max-width: 370px) {
   #hero-section header {
-    
     padding-inline: 2.5rem;
-}
+  }
   #hero-section .heading {
     padding-inline: 2rem;
-}
-#menu .top-box .container p {
-  padding-inline: 1.2rem;
-  text-align: center;
-}
+  }
+  #menu .top-box .container p {
+    padding-inline: 1.2rem;
+    text-align: center;
+  }
 
-#menu .food-type .food-box .images-box::before {
- 
-  left: 5rem;
-  height: 35rem;
-}
+  #menu .food-type .food-box .images-box::before {
+    left: 5rem;
+    height: 35rem;
+  }
 
-#menu1 .bottom-box h3 {
-  padding-inline: 1.5rem;
-}
+  #menu1 .bottom-box h3 {
+    padding-inline: 1.5rem;
+  }
 
-#contact .container {
-  padding-inline: 3rem;
-  padding-block: 4rem;
-}
+  #contact .container {
+    padding-inline: 3rem;
+    padding-block: 4rem;
+  }
 
-#event .top-box {
-  padding-top: 5rem;
-}
-#event .bottom-box {
-  padding: 3rem 0;
-}
-#event .bottom-box .inner-box img {
-  width: 25rem;
-}
-.online-booking .booking-box .left-box {
-  padding: 4rem 1.2rem;
-}
+  #event .top-box {
+    padding-top: 5rem;
+  }
+  #event .bottom-box {
+    padding: 3rem 0;
+  }
+  #event .bottom-box .inner-box img {
+    width: 25rem;
+  }
+  .online-booking .booking-box .left-box {
+    padding: 4rem 1.2rem;
+  }
 
-.online-booking .booking-box .right-box {
- 
-  padding-block: 4rem;
-}
+  .online-booking .booking-box .right-box {
+    padding-block: 4rem;
+  }
 
-.online-booking .booking-box .right-box .address p {
-  padding-inline: 0rem;
-}
+  .online-booking .booking-box .right-box .address p {
+    padding-inline: 0rem;
+  }
 
-#online {
-  padding-block: 0rem;
-}
-
+  #online {
+    padding-block: 0rem;
+  }
 }
