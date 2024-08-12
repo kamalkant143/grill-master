@@ -188,6 +188,7 @@ a {
 @keyframes changeimage{
   0%{
     background-image: url("images/hero-slider-2.jpg");
+
   }
   20%{
     background-image: url("images/hero-slider-3.jpg");
