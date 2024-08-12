@@ -949,7 +949,7 @@ padding-inline: 15rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 30rem;
+  /* padding-bottom: 30rem; */
   position: relative;
 }
 
@@ -1146,10 +1146,8 @@ padding-inline: 15rem;
   transition: var(--transition-1);
 }
 
-#event .bottom-box .container .box .inner-box 
 
-
-#event .bottom-box .container .box .inner-box .date{
+#event .bottom-box .container .box .inner-box .date p{
   background-color:var(--black);
   color: var(--gold-crayola);
   font-size: var(--fontSize-body-2);
