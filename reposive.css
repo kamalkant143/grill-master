@@ -458,11 +458,11 @@
   }
 
   #about .right-about .top-img .simple {
-    right: 2rem;
+    right: 3rem;
   }
 
   #about .right-about .top-img .rotate-img {
-    right: 2rem;
+    right: 3rem;
   }
 
   #about .right-about .side .side-image {
@@ -520,6 +520,15 @@
     left: 55rem;
   }
 }
+
+@media (max-width: 760px) {
+  #about .right-about .side .side-image {
+    width: 15rem;
+    bottom: -10rem;
+    left: 50rem;
+}
+}
+
 
 @media (max-width: 660px) {
   #menu1 .middle-box {
