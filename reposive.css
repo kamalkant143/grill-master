@@ -515,5 +515,8 @@
   #online {
     padding-block: 0rem;
   }
-
+  footer p{
+    font-size: 1.1rem;
+    
+  }
 }
