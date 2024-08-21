@@ -1273,3 +1273,21 @@ a {
   margin-top: 1rem;
   line-height: var(--lineHeight-4);
 }
+
+/* ======= footer ======== */
+
+footer{
+  text-align: center;
+  background-color: var(--smoky-black-1);
+  padding: 3rem 0rem;
+}
+
+footer p{
+  font-size: var(--fontSize-label-1);
+  color: var(--white);
+  font-family: var(--fontFamily-dm_sans);
+}
+
+footer p span{
+  color: var(--gold-crayola);
+}
