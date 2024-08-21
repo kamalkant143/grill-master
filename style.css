@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: var(--fontFamily-dm_sans); */
 }
 
 html {
@@ -31,26 +30,7 @@ html {
   --black-alpha-80: #000000cc;
   --black-alpha-15: #00000026;
 
-  /**
-     * GRADIENT COLOR
-     */
-
-  --loading-text-gradient: linear-gradient(
-    90deg,
-    transparent 0% 16.66%,
-    var(--smoky-black-3) 33.33% 50%,
-    transparent 66.66% 75%
-  );
-  --gradient-1: linear-gradient(
-    to top,
-    hsla(0, 0%, 0%, 0.9),
-    hsla(0, 0%, 0%, 0.7),
-    transparent
-  );
-
-  /**
-     * TYPOGRAPHY
-     */
+ 
 
   /* font-family */
   --fontFamily-forum: "Forum", cursive;
@@ -90,32 +70,8 @@ html {
   --letterSpacing-4: 0.3em;
   --letterSpacing-5: 3px;
 
-  /**
-     * SPACING
-     */
-
-  --section-space: 70px;
-
-  /**
-     * SHADOW
-     */
-
-  --shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
-
-  /**
-     * BORDER RADIUS
-     */
-
-  --radius-24: 24px;
-  --radius-circle: 50%;
-
-  /**
-     * TRANSITION
-     */
-
-  --transition-1: 250ms ease;
-  --transition-2: 500ms ease;
-  --transition-3: 1000ms ease;
+ 
+ 
 }
 li {
   list-style: none;
