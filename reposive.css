@@ -409,6 +409,11 @@
   .online-booking .booking-box .left-box .form-box div input {
     padding: 2rem 1rem;
   }
+
+  footer p{
+    font-size: var(--fontSize-label-2);
+    
+  }
 }
 
 @media (max-width: 370px) {
@@ -460,7 +465,7 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 330px) {
   #hero-section header {
     padding-inline: 2.5rem;
   }
@@ -473,12 +478,12 @@
   }
 
   #menu .food-type .food-box .images-box::before {
-    left: 5rem;
-    height: 35rem;
+    left: 6rem;
+    height: 38rem;
   }
 
   #menu1 .bottom-box h3 {
-    padding-inline: 1.5rem;
+    padding-inline: 1.1rem;
   }
 
   #contact .container {
