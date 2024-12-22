@@ -344,9 +344,13 @@
     margin-block: 3rem;
   }
 
+ 
+
   #about .right-about .side .side-image {
     display: none;
   }
+
+ 
 }
 
 @media (max-width: 530px) {
@@ -401,6 +405,11 @@
   #menu1 .bottom-box {
     margin-top: 4rem;
   }
+
+  #contact .container {
+    padding-inline: 3rem;
+    padding-block: 5rem;
+}
   .online-booking {
     width: 95%;
   }
