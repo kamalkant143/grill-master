@@ -1085,7 +1085,16 @@ a {
 
 #event .bottom-box .container .box .inner-box {
   position: relative;
-  transition: var(--transition-1);
+   overflow: hidden;
+}
+
+#event .bottom-box .container .box .inner-box img{
+  transition: all 0.3s;
+
+}
+
+#event .bottom-box .container .box .inner-box:hover img{
+  transform: scale(1.1);
 }
 
 #event .bottom-box .container .box .inner-box .date p {
@@ -1096,6 +1105,7 @@ a {
   position: absolute;
   top: 3rem;
   left: 2rem;
+  z-index: 5;
 }
 
 #event .bottom-box .container .box .inner-box .event-details {
