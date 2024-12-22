@@ -495,6 +495,7 @@ a {
 #menu .food-type .food-box .images-box {
   position: relative;
   padding-block: 3rem;
+  overflow: hidden;
 }
 
 #menu .food-type .food-box .images-box::before {
@@ -516,7 +517,8 @@ a {
   position: relative;
   width: 100%;
   z-index: 1;
-  transition: var(--transition-2);
+  /* transition: var(--transition-2); */
+  transition: all 0.3s;
 }
 
 #menu .food-type .food-box:hover .images-box .front {
